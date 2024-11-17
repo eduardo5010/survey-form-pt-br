@@ -1,160 +1,182 @@
 html {
-    background-color: grey;
-  }
-  body {
-              background-color: #1a1a1a;
-                          min-width: fit-content;
-              margin: 10px;
-              padding: 20px;
-              border-radius: 30px;
-              overflow-y: auto;
-          }
-          header {
-              background-color: blue;
-              height: fit-content;
-                          min-width: fit-content;
-              border-radius: 30px;
-              padding: 20px;
-              margin-bottom: 10px;
-              box-shadow: 0px 0px 20px 5px grey;
-              font-family: 'Cascadia Code Light';
-              color: white;
-              text-align: center;
-              transition-duration: 1s;
-          }
-          header:hover {
-              background-color: blueviolet;
-              transition-duration: 1s;
-          }
-          nav {
-              background-color: green;
-                          min-width: fit-content;
-              height: fit-content;
-              border-radius: 30px;
-              padding: 20px;
-              margin-bottom: 10px;
-              margin-top: 10px;
-              box-shadow: 0px 0px 20px 5px grey;
-              font-family: 'Cascadia Code Light';
-              color: white;
-              transition-duration: 1s;
-          }
-          nav:hover {
-              background-color: blueviolet;
-              transition-duration: 1s;
-          }
-          article {
-              background-color: red;
-                          min-width: fit-content;
-              height: fit-content;
-              border-radius: 30px;
-              padding: 20px;
-              margin: 10px;
-              box-shadow: 0px 0px 20px 5px grey;
-              font-family: 'Cascadia Code Light';
-              color: white;
-              transition-duration: 1s;
-          }
-          article:hover {
-              background-color: blueviolet;
-              transition-duration: 1s;
-          }
-          section {
-              background-color: violet;
-              height: fit-content;
-              min-width: fit-content;
-              border-radius: 30px;
-              padding: 20px;
-              margin-top: 20px;
-              margin-bottom: 20px;
-              box-shadow: 0px 0px 20px 5px grey;
-              font-family: 'Cascadia Code Light';
-              color: white;
-              transition-duration: 1s;
-          }
-          section:hover {
-              background-color: blueviolet;
-              transition-duration: 1s;
-          }
-          footer {
-              background-color: orange;
-                          min-width: fit-content;
-              height: fit-content;
-              border-radius: 30px;
-              padding: 20px;
-              margin-top: 20px;
-              box-shadow: 0px 0px 20px 5px grey;
-              font-family: 'Cascadia Code Light';
-              text-align: center;
-              color: white;
-              transition-duration: 1s;
-          }
-          footer:hover {
-              background-color: blueviolet;
-              transition-duration: 1s;
-          }
-          button {
-              min-width: fit-content;
-              border-radius: 30px;
-              border: 1px solid transparent;
-              padding: 20px;
-              font-size: 14pt;
-              font-weight: 500;
-              font-family: inherit;
-              background-color: #1a1a1a;
-              cursor: pointer;
-              transition: border-color 0.25s, border-radius 1s;
-              color: white;
-          }
-          button:hover {
-              border-color: #646cff;
-              border-radius: 10px;
-          }
-          button:focus,
-          button:focus-visible {
-              outline: 4px auto -webkit-focus-ring-color;
-          }
-          #name, #email, #number, #dropdown {
-              background-color: white;
-              width: fit-content;
-              height: fit-content;
-              border-radius: 30px;
-              border: 0;
-              padding: 20px;
-              font-size: 14pt;
-              box-shadow: 0px 0px 20px 5px grey;
-              font-family: 'Cascadia Code Light';
-              color: black;
-              transition-duration: 1s;
-          }
-          #name:hover, #email:hover, #number:hover, #dropdown:hover, textarea:hover {
-              border-radius: 10px
-          }
-          #submit {
-              margin: auto;
-              min-width: 300px;
-              width: 30%;
-          }
-          textarea {
-              background-color: white;
-              min-width: 300px;
-              width: 30%;
-              height: 30%;
-              border-radius: 30px;
-              border: 0;
-              padding: 20px;
-              font-size: 14pt;
-              box-shadow: 0px 0px 20px 5px grey;
-              font-family: 'Cascadia Code Light';
-              color: black;
-              transition-duration: 1s;
-          }
-          #yes, #no, #never, #check1, #check2, #check3, #check4 {
-              width: 30px;
-              height: 30px;
-          }
-          label {
-              font-size: 14pt;
-              align-items: center;
-              justify-content: center;
-          }
+  background-color: grey;
+}
+body {
+  background-color: #1a1a1a;
+  min-width: fit-content;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 30px;
+  overflow-y: auto;
+}
+header {
+  background-color: blue;
+  height: fit-content;
+  min-width: fit-content;
+  border-radius: 30px;
+  padding: 20px;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 20px 5px grey;
+  font-family: "Cascadia Code Light";
+  color: white;
+  text-align: center;
+  transition-duration: 1s;
+}
+header:hover {
+  background-color: blueviolet;
+  transition-duration: 1s;
+}
+nav {
+  background-color: green;
+  min-width: fit-content;
+  height: fit-content;
+  border-radius: 30px;
+  padding: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  box-shadow: 0px 0px 20px 5px grey;
+  font-family: "Cascadia Code Light";
+  color: white;
+  transition-duration: 1s;
+}
+nav:hover {
+  background-color: blueviolet;
+  transition-duration: 1s;
+}
+article {
+  background-color: red;
+  min-width: fit-content;
+  height: fit-content;
+  border-radius: 30px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0px 0px 20px 5px grey;
+  font-family: "Cascadia Code Light";
+  color: white;
+  transition-duration: 1s;
+}
+article:hover {
+  background-color: blueviolet;
+  transition-duration: 1s;
+}
+section {
+  background-color: violet;
+  height: fit-content;
+  min-width: fit-content;
+  border-radius: 30px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 20px 5px grey;
+  font-family: "Cascadia Code Light";
+  color: white;
+  transition-duration: 1s;
+}
+section:hover {
+  background-color: blueviolet;
+  transition-duration: 1s;
+}
+footer {
+  background-color: orange;
+  min-width: fit-content;
+  height: fit-content;
+  border-radius: 30px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0px 0px 20px 5px grey;
+  font-family: "Cascadia Code Light";
+  text-align: center;
+  color: white;
+  transition-duration: 1s;
+}
+footer:hover {
+  background-color: blueviolet;
+  transition-duration: 1s;
+}
+button {
+  min-width: fit-content;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  padding: 20px;
+  font-size: 14pt;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s, border-radius 1s;
+  color: white;
+}
+button:hover {
+  border-color: #646cff;
+  border-radius: 10px;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+#name,
+#email,
+#number,
+#dropdown {
+  background-color: white;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 30px;
+  border: 0;
+  padding: 20px;
+  font-size: 14pt;
+  box-shadow: 0px 0px 20px 5px grey;
+  font-family: "Cascadia Code Light";
+  color: black;
+  transition-duration: 1s;
+}
+#name:hover,
+#email:hover,
+#number:hover,
+#dropdown:hover,
+textarea:hover {
+  border-radius: 10px;
+}
+#submit {
+  margin: auto;
+  min-width: 300px;
+  width: 30%;
+}
+textarea {
+  background-color: white;
+  min-width: 300px;
+  width: 30%;
+  height: 30%;
+  border-radius: 30px;
+  border: 0;
+  padding: 20px;
+  font-size: 14pt;
+  box-shadow: 0px 0px 20px 5px grey;
+  font-family: "Cascadia Code Light";
+  color: black;
+  transition-duration: 1s;
+}
+#yes,
+#no,
+#never,
+#check1,
+#check2,
+#check3,
+#check4 {
+  width: 30px;
+  height: 30px;
+}
+label {
+  font-size: 14pt;
+  align-items: center;
+  justify-content: center;
+}
+.input {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#number {
+  width: 100px;
+}

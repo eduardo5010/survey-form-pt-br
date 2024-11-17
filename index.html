@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title></title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
-      <h1 id="title">
-        Contato com Eduardo
-      </h1>
+      <h1 id="title">Contato com Eduardo</h1>
       <p id="description">Obrigado pelo interesse em meus serviços.</p>
     </header>
     <main>
@@ -18,49 +16,77 @@
           <label id="name-label" for="name">
             <h2>Nome</h2>
           </label>
-          <input class="input" id="name" type="text" placeholder="Digite seu nome" required>
+          <input
+            class="input"
+            id="name"
+            type="text"
+            placeholder="Digite seu nome"
+            required
+          />
           <label id="email-label" for="email">
             <h2>E-mail</h2>
           </label>
-          <input id="email" type="email" placeholder="Digite seu e-mail" required>
+          <input
+            id="email"
+            type="email"
+            placeholder="Digite seu e-mail"
+            required
+          />
           <label id="number-label" for="number">
             <h2>Idade</h2>
           </label>
-          <input id="number" type="number" min="18" max="70" placeholder="Digite sua idade">
+          <input
+            id="number"
+            type="number"
+            min="18"
+            max="70"
+            placeholder="Idade"
+          />
           <label>
             <h2>Qual serviço deseja?</h2>
           </label>
           <select name="Serviços" id="dropdown">
             <option value="web-design">Web Design</option>
-            <option value="mobile-dev">
-              Mobile Dev
-            </option>>
+            <option value="mobile-dev">Mobile Dev</option>
+            >
           </select>
-          <br>
+          <br />
           <h2>Recomendaria meus serviços para seus amigos?</h2>
-          <input type="radio" id="yes" name="recommendation" value="Sim">
-  <label for="yes">Sim</label><br>
-  <input type="radio" id="no" name="recommendation" value="Não">
-  <label for="no">Não</label><br>
-  <input type="radio" id="never" name="recommendation" value="Nunca!">
-  <label for="never">Nunca!</label>
-  <h2>O que pode ser melhorado?</h2>
-  <input type="checkbox" id="check1" name="melhorias" value="Nada!">
-  <label for="check1">Nada!</label>
-  <br>
-  <input type="checkbox" id="check2" name="melhorias" value="Você é burro!">
-  <label for="check2">Algumas coisas</label>
-  <br>
-  <input type="checkbox" id="check3" name="melhorias" value="Engenharia Elétrica e Ciência da Computação não é pra você!">
-  <label for="check3">Tudo!</label>
-  <br>
-  <input type="checkbox" id="check4" name="melhorias" value="Você é marxista!">
-  <label for="check4">Uma coisa</label>
+          
+          <ul class="recommendation">
+            <li class="input">
+              <input type="radio" id="yes" name="recommendation" value="Sim" /> Sim
+            </li>
+            <li class="input" >           
+            <input type="radio" id="no" name="recommendation" value="Não" /> Não 
+            </li>
+            <li class="input">
+              <input type="radio" id="never" name="recommendation" value="Nunca!" /> Nunca!
+            </li>
+          </ul>
+          <h2>O que pode ser melhorado?</h2>
+          <ul class="upgrade">
+            <li class="input">
+              <input type="radio" id="yes" name="upgrade" value="Sim" /> Nada
+            </li>
+            <li class="input" >           
+            <input type="radio" id="no" name="upgrade" value="Não" /> Algumas coisas
+            </li>
+            <li class="input">
+              <input type="radio" id="never" name="upgrade" value="Nunca!" /> Tudo
+            </li>
+            <li class="input">
+              <input type="radio" id="never" name="upgrade" value="Nunca!" /> Uma coisa
+            </li>
+          </ul>
           <label for="textarea">
             <h2>Comentários adicionais</h2>
           </label>
-          <textarea name="textarea" placeholder="Digite seu comentário"></textarea>
-          <br><br>
+          <textarea
+            name="textarea"
+            placeholder="Digite seu comentário"
+          ></textarea>
+          <br /><br />
           <button id="submit">Enviar</button>
         </form>
       </section>
